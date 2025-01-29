@@ -85,9 +85,6 @@ const Hero = () => {
 
     const getVideosSrc = (index) => `/videos/hero-${index}.mp4`;
 
-    console.log(loadedVideos, "loaded")
-    console.log(totalVideos, "total")
-
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
 
