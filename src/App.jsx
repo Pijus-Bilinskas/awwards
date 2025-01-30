@@ -1,4 +1,5 @@
 import About from './components/About'
+import AboutSection2 from './components/AboutSection2'
 import Contact from './components/Contact'
 import Features from './components/Features'
 import Footer from './components/Footer'
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Features />
       <Story />
+      <AboutSection2 />
       <Contact />
       <Footer />
     </main>
