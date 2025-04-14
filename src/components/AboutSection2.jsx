@@ -69,15 +69,15 @@ const AboutSection2 = () => {
             <div ref={leftImageRef} className='absolute top-[22%] left-[43%]' onMouseMove={(e) => handleMouseMove(e, leftImageRef)} 
                 onMouseLeave={() => handleMouseLeave(leftImageRef)}
                 >
-                <img src="/img/about-entry-1.webp" className='size-15 object-cover rounded-md' />
+                <img src="/img/about-entry-1.webp" className='size-16 object-cover rounded-md sm:size-13' />
             </div>
             <div ref={rightImageRef} className='absolute top-[35%] right-[42%] bg-black' onMouseMove={(e) => handleMouseMove(e, rightImageRef)} 
                 onMouseLeave={() => handleMouseLeave(rightImageRef)}>
-                <img src="/img/about-entry-2.webp" className='size-15 object-cover rounded-md' />
+                <img src="/img/about-entry-2.webp" className='size-16 object-cover rounded-md sm:size-13' />
             </div>
             <div ref={middleImageRef} className='absolute top-[53%] left-[47%] bg-black' onMouseMove={(e) => handleMouseMove(e, middleImageRef)} 
                 onMouseLeave={() => handleMouseLeave(middleImageRef)}>
-                <img src="/img/about-entry-3.webp" className='size-15 object-cover rounded-md' />
+                <img src="/img/about-entry-3.webp" className='size-16 object-cover rounded-md sm:size-13s' />
             </div>
 
         </div>

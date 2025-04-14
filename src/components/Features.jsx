@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 import { TiLocationArrow } from 'react-icons/ti'
 
-    const BentoTilt = ({children, className = ''}) => {
+    export const BentoTilt = ({children, className = ''}) => {
         const [transformStyle, setTransformStyle] = useState('')
         const itemRef = useRef()
 
@@ -119,4 +119,4 @@ const Features = () => {
   )
 }
 
-export default Features
+export default Features;
