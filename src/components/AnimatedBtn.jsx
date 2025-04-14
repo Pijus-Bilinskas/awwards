@@ -55,7 +55,7 @@ const AnimatedBtn = ({ title, containerClass }) => {
         }
     }, [])
 
-
+// need to fix the animation for the button
 
   return (
     <button ref={buttonRef}

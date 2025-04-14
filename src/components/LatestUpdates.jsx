@@ -4,7 +4,7 @@ import { BentoTilt } from "./Features";
 
 
 const LatestUpdates = () => {
-
+// need to implement a zoom on hover
 
     return (
         <div className="flex flex-col w-screen my-20 px-6 sm:flex-row sm:my-10 min-h-screen">

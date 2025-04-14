@@ -1,6 +1,9 @@
 import AnimatedTitle from './AnimatedTitle'
 
 const Stats = () => {
+
+//this is a work in progress, i gave up along the way, hard to find the assets needed
+
   return (
 <div className='w-screen min-h-dvh bg-black py-25'>
     <div className='relative'>

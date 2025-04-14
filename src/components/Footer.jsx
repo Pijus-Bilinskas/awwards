@@ -51,7 +51,7 @@ const Footer = () => {
 
     }
 
-
+//image needs to be corrected, to where it would react correctly 
   return (
     <footer className='w-screen bg-violet-300 py-5 text-black'>
         <img 
@@ -65,7 +65,6 @@ const Footer = () => {
         className='w-[96%] mx-auto'
          />
          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 my-12 px-10">
-  {/* EXPLORE */}
   <div className="flex flex-col gap-2 text-left">
     <p className="text-xs font-circular-web uppercase">Explore</p>
     <div className="flex flex-col gap-1">
@@ -77,7 +76,6 @@ const Footer = () => {
     </div>
   </div>
 
-  {/* PRODUCTS */}
   <div className="flex flex-col gap-2 text-left">
     <p className="text-xs font-circular-web uppercase">Products</p>
     <div className="flex flex-col gap-1">
@@ -88,7 +86,6 @@ const Footer = () => {
     </div>
   </div>
 
-  {/* FOLLOW US */}
   <div className="flex flex-col gap-2 text-left">
     <p className="text-xs font-circular-web uppercase">Follow Us</p>
     <div className="flex flex-col gap-1">
@@ -107,7 +104,6 @@ const Footer = () => {
     </div>
   </div>
 
-  {/* RESOURCES */}
   <div className="flex flex-col gap-2 text-left">
     <p className="text-xs font-circular-web uppercase">Resources</p>
     <button className="font-robert-medium text-2xl text-left hover:text-violet-300 hover:bg-black p-1.5 duration-300 rounded-2xl">Media Kit</button>
